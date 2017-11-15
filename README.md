@@ -41,9 +41,9 @@ Traditionally brute forcing accounts takes time: it is normally conducted with l
 Optimized Credentials for IoT Crusher Open Source
 --
 
-Credential as of 15 November 2017 include, malware such as Mirai and Hajime, the recent pastebin IoT credential dump, and a handful of embedded device vendors. 
+Credentials as of 15 November 2017 include malware such as Mirai and Hajime, the recent pastebin IoT credential dump, and a handful of embedded device vendor default user names and passwords. 
 
-Use All lists or any combination thereof. When merged, the list will be optimized to have only a single instance of each credential pair, streamlining the test with only valid credentials.
+Use 'All' lists or any combination thereof. When merged, the list will be optimized to have only a single instance of each credential pair, streamlining the test with only valid credentials.
 
 
 Three Application Architectures
