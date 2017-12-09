@@ -1166,7 +1166,7 @@ i = 0
 for address in ipaddress_array:
 #    processing / testing IP address 7/100 devices = % complete
     i += 1
-    print("Now testing IP Address: " + str(address) + " \t-- " + str(i) + "/" + str(total_ip_addresses) + " Currently " + str(round((int(i)/int(total_ip_addresses))*100, 2)) + " % finshed.")
+    print("Now testing IP Address: " + str(address) + " \t-- " + str(i) + "/" + str(total_ip_addresses) + " Currently " + str(round((int(i)/int(total_ip_addresses))*100, 2)) + " % finished.")
     attack_telnet(str(address),"23", respect_banner)
 
 
